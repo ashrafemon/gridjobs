@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body{
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+}
+
+#heroImage{
+    height: 500px;
+    width: 100%;
+}
+
+#heroImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.cat-item{
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.cat-item:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    z-index: 100;
+}
+
+#resumeImage{
+    height: 400px;
+    width: 100%;
+}
+
+#resumeImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.ft-job-item{
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.ft-job-item:hover{
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+
+#candidedImage{
+    height: 500px;
+    width: 100%;
+}
+
+#candidedImage img{
+    height: 100%;
+    width: 100%;
+}
